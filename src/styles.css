@@ -1,0 +1,140 @@
+
+:root {
+  --color-primary: #24457b; /*Roxo*/
+  --color-secondary: #e55d35; /*Laranja*/
+  --secondary-back: #ff006f;
+  --secondary-back-complement: #ff006f;
+  --secondary-text: #ffffff;
+  --radius: 50px
+}
+
+.text-primary { color: #3A4156 !important; }
+.text-secondary { color: #5451FB !important; }
+.text-red { color: #ff0707 !important; }
+a { text-decoration: none !important; }
+.fa.fa-arrows-h:before { content: "\f337"; }
+html { font-size: 14px; }
+
+@media (min-width: 768px) {
+  html { font-size: 16px; }
+}
+
+html { -webkit-font-smoothing: antialiased; }
+body {   background-color: #ebf6fc; font-family: 'Montserrat', sans-serif; font-size: 1rem; line-height: 1.625em; color: var(--color-primary); font-weight: 400; color: var(--color-primary) }
+a { text-decoration: none }
+
+body:not(.focus-visible) :focus:not(.focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+/* 1.2 Typography */
+
+.h1, h1 { position: relative; font-size: 5.725rem; font-weight: 700; line-height: 1; }
+.h2, h2 { position: relative; font-weight: 700; font-size: 2.7rem; line-height: 1.2; margin: 2rem 0 }
+.h3, h3 { font-weight: 700; font-size: 1.925rem; line-height: 1.25; margin: 1.5rem 0 }
+.h4, h4 { font-weight: 700; font-size: 1.525rem; line-height: 1.2; margin: 1.5rem 0 }
+.h5, h5 { font-weight: 700; font-size: 1.125rem; line-height: 1.2; margin: 1.2rem 0 }
+.h6, h6 { font-weight: 700; font-size: .9rem; letter-spacing: 1px; line-height: 1.2; margin: 1rem 0; text-transform: uppercase }
+
+.h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit }
+.h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: none }
+
+p { margin-bottom: 1rem; font-size: 18px; font-weight: 600 }
+ul { list-style: none; padding-left: 0 }
+a { color: #3a4156; -webkit-transition: color .3s ease-out; -o-transition: color .3s ease-out; transition: color .3s ease-out }
+a:focus, a:hover { color: #3a4156; outline: 0; cursor: pointer }
+a:focus { text-decoration: none }
+.lead { line-height: 1.9; font-size: 1.125rem }
+.size-sm { font-size: .875rem }
+img { height: auto; width: 100%; }
+
+/**Section Cakes**/
+
+.cakes{ padding: 80px; }
+.cakes h2 { font-size: 3rem; color: var(--color-primary); margin: 0; padding: 10px 0; font-weight:400; }
+.cakes h2 span { font-weight: 700; }
+.cakes p { margin: 30px 0 20px 0; font-size: 1.1rem; font-weight: 100; color: var(--color-primary); }
+.cakes .online,
+.cakes .offline { position: relative; background: #f5f6fb; padding: 15px 17px; border: solid 1px #e7e7e7; margin-right: 20px; }
+.cakes .titulo { border-bottom: solid 2px #9a9a9a; margin-bottom: 100px;}
+.cakes .titulo p.freshly{  font-size: 2.5rem; line-height: 3rem; }
+
+p.favorite{  font-size: 2rem; line-height: 3rem; }
+p.favorite span {color:#ff0000;}
+
+
+.radio {
+  margin: 0.5rem;
+}
+
+.radio img {
+  max-width: 390px;
+}
+.radio input[type=radio] {
+  margin: 0 10px;
+}
+.radio input[type=radio] + .radio-label:before {
+  content: "";
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: -0.2em;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align:
+  center;
+  transition: all 250ms ease;
+}
+.radio input[type=radio]:checked + .radio-label:before {
+  background-color: #3197ee;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type=radio]:focus + .radio-label:before {
+  outline: none;
+  border-color: #3197ee;
+}
+.radio input[type=radio]:disabled + .radio-label:before {
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.radio input[type=radio] + .radio-label:empty:before {
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .radio img {
+    max-width: 250px;
+  }
+}
+
+container {
+  margin-top: 30px;
+}
+
+.add-car {
+  margin-bottom: 30px;
+}
+
+.list-car {
+  margin-bottom: 50px;
+}
+
+.btn-add-car {
+  margin-right: 10px;
+}
+.btOrder {
+  justify-content: center;
+}
+button.order {
+  justify-content: center;
+  border-radius: 20px;
+  color:#fff;
+  background-color:#24457b;
+  border:0;
+}
