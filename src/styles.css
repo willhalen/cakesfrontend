@@ -130,6 +130,7 @@ container {
 }
 .btOrder {
   justify-content: center;
+  margin-bottom: 30px;
 }
 button.order {
   justify-content: center;
