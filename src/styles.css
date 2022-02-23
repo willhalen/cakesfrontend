@@ -111,6 +111,12 @@ p.favorite span {color:#ff0000;}
   .radio img {
     max-width: 250px;
   }
+  .cakes .titulo {
+    margin-bottom: 30px;
+  }
+  .cakes {
+    padding: 20px;
+  }
 }
 
 container {
