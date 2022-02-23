@@ -5,7 +5,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
 
-<img src="https://github.com/willhalen/cakesfrontend/blob/main/src/assets/img/cakehome1.png">
+<img src="https://raw.githubusercontent.com/willhalen/cakesfrontend/main/src/assets/img/cakehome1.png">
 <img src="https://raw.githubusercontent.com/willhalen/cakesfrontend/main/src/assets/img/cakehome2.png">
 ## Development server
 <br /><br />
