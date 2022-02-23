@@ -6,6 +6,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
 
 <img src="https://github.com/willhalen/cakesfrontend/blob/main/src/assets/img/cakehome1.png">
+<img src="https://raw.githubusercontent.com/willhalen/cakesfrontend/main/src/assets/img/cakehome1.png">
 ## Development server
 <br />
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.<br />
